@@ -8,6 +8,7 @@ package:
 
 build:
   number: 0
+  skip: True  # [osx]
 
 source:
   url: https://github.com/ViennaRNA/Treekin/releases/download/v{{ version }}/Treekin-{{ version }}.tar.gz 

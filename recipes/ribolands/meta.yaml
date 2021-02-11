@@ -9,6 +9,7 @@ package:
 build:
   noarch: python
   number: 0
+  skip: True  # [osx]
 
 source:
   url: https://github.com/bad-ants-fleet/ribolands/archive/09986dc358e0044d09658b6cd08716b45022f4c5.tar.gz
